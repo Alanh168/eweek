@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+body {
+	background-image: url("../img/um-colors-background.jpg");
+	overflow-x: hidden;
+}
+
+#banner {
+	width: 100%;
+	border: 2px black solid;
+	background-color: green;
+	opacity: .7;
+	margin-bottom: 20px;
+}
+
+#banner img {
+	display: block;
+	margin: 0 auto;
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+}
+
+div.polaroid {
+    width: 20%;
+    background-color: white;
+		padding:10px 10px 10px 10px;
+		text-align:center;
+		color:#333;
+		font-size:28px;
+		font-family:'Nothing You Could Do', cursive;
+		font-weight:bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		display: block;
+		margin: 0 auto;
+		opacity: .8;
+}
+
+p {
+	line-height: 90%;
+}
+
+#left-tilt {
+	-ms-transform: rotate(-7deg); /* IE 9 */
+	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+	transform: rotate(-7deg);
+}
+
+#right-tilt {
+	-ms-transform: rotate(7deg); /* IE 9 */
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
+}
+
+.polaroid img {
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 10px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#date {
+	padding: 5px;
+	font-size: 60px;
+	color: #FD6301;
+}
+
+#center-elements {
+	border: 10px double darkgreen;
+	max-width: 50%;
+	left: 0;
+	right: 0;
+	font-size: large;
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	background-image: url("../img/old-paper.jpg");
+	/*opacity: .7;*/
+}
+
+#event {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	text-align: center;
+	color: darkgreen;
+	-webkit-text-stroke-color: black;
+	border-top: 2px solid darkgreen;
+	border-bottom: 2px solid darkgreen;
+}
+
+#event h4{
+	font-size: xx-large;
+}
+
+#event p {
+	font-size: 20px;
+}
