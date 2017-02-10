@@ -20,7 +20,7 @@ body {
 	border-right: 2px black solid;
 }
 
-div.polaroid {
+.polaroid {
     width: 20%;
     background-color: white;
 		padding:10px 10px 10px 10px;
@@ -35,25 +35,29 @@ div.polaroid {
 		opacity: .8;
 }
 
+h4 {
+	line-height: 105%;
+}
+
 p {
 	line-height: 90%;
 }
 
-#left-tilt {
+.left-tilt {
 	-ms-transform: rotate(-7deg); /* IE 9 */
 	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
 	transform: rotate(-7deg);
 }
 
-#right-tilt {
+.right-tilt {
 	-ms-transform: rotate(7deg); /* IE 9 */
 	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	transform: rotate(7deg);
 }
 
 .polaroid img {
-	max-width: 100%;
-	max-height: 100%;
+	height: 60%;
+	width: auto;
 	margin-bottom: 10px;
 }
 
@@ -62,13 +66,14 @@ div.container {
     padding: 10px 20px;
 }
 
-#date {
+.date {
 	padding: 5px;
 	font-size: 60px;
 	color: #FD6301;
 }
 
 #center-elements {
+	margin: 0 auto;
 	border: 10px double darkgreen;
 	max-width: 50%;
 	left: 0;
@@ -80,7 +85,7 @@ div.container {
 	/*opacity: .7;*/
 }
 
-#event {
+.event {
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -92,10 +97,37 @@ div.container {
 	border-bottom: 2px solid darkgreen;
 }
 
-#event h4{
+.event h4{
 	font-size: xx-large;
 }
 
-#event p {
+.event p {
 	font-size: 20px;
+}
+
+.student-org {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.student-org img {
+	display: inline-block;
+}
+
+.student-org h3 {
+	display: inline-block;
+}
+
+@media screen and (max-width:415px) {
+	.polaroid {
+		display: none;
+	}
+
+	#center-elements {
+		max-width: 100%;
+	}
 }
