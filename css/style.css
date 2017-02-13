@@ -161,42 +161,26 @@ p {
 }
 
 .event p {
-	font-size: 20px;
 }
 
-/*.student-org {
-	width: 150px;
-	height: 150px;
+.student-org {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
 	padding: 10px;
 	margin: 10px;
-	border: 2px solid black;
-	background-color: brown;
-	opacity: .8;
-}
-
-.student-org:hover {
-	background-color: green;
-}
-
-.student-org-logo {
-	width:
-	background-color: white;
-}
-
-.student-org h3 {
-	text-align: center;
-	line-height: 90%;
-	font-size: 20px;
-	border: 2px double black;
-	background-color: white;
-	color: black;
 }
 
 .student-org img {
-	display: block;
-	margin-left: auto;
-  margin-right: auto;
-	width: auto;
-	height: 35%;
-	opacity: 0.9;
-}*/
+	display: inline-block;
+}
+
+.student-org h3 {
+	display: inline-block;
+}
+
+@media screen and (max-width:415px) {
+	.polaroid {
+		display: none;
+	}
