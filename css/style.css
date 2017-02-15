@@ -1,44 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
 body {
-	background-image: url("../img/um-colors-background.jpg");
 	overflow-x: hidden;
+
+	background-image: url("../img/um-colors-background.jpg");
 }
 
 #banner {
 	width: 100%;
 	height: 10%;
+	margin-bottom: 20px;
+
+	opacity: .7;
 	border: 2px black solid;
 	background-color: white;
-	opacity: .7;
-	margin-bottom: 20px;
 }
 
 .left {
 	display: inline-block;
 	float: left;
+
 	width: 40%;
 	height: inherit;
 }
 
 .left img {
 	display: block;
-	margin: 0 auto;
+
 	width: 100%;
 	height: 100%;
+	margin: 0 auto;
 }
 
 .right {
-	text-align: center;
-	text-shadow: 1px 1px black;
 	display: inline-block;
 	float: right;
+
 	width: 40%;
 	height: 100%;
+
+	text-align: center;
+
+	text-shadow: 1px 1px black;
 }
 
 .right h1 {
 	text-decoration: underline;
+
 	color: darkorange;
 }
 
@@ -61,22 +69,26 @@ body {
 
 .right a:hover {
 	text-decoration: none;
-	background-color: #FD6301;
+
 	color: darkgreen;
+	background-color: #FD6301;
 }
 
 .right button:hover {
 	text-decoration: none;
-	background-color: #FD6301;
+
 	color: darkgreen;
+	background-color: #FD6301;
 }
 
 .centered {
-	text-align: center;
 	display: inline-block;
+
 	width: 20%;
 	height: 100%;
 	margin: 0 auto;
+
+	text-align: center;
 }
 
 .centered img {
@@ -84,18 +96,22 @@ body {
 }
 
 .polaroid {
-    width: 20%;
-    background-color: white;
-		padding:10px 10px 10px 10px;
-		text-align:center;
-		color:#333;
-		font-size:28px;
-		font-family:'Nothing You Could Do', cursive;
-		font-weight:bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		display: block;
-		margin: 0 auto;
-		opacity: .8;
+	display: block;
+
+  width: 20%;
+	margin: 0 auto;
+	padding:10px 10px 10px 10px;
+
+	text-align:center;
+
+	opacity: .8;
+	color:#333;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	font-family:'Nothing You Could Do', cursive;
+	font-size:28px;
+	font-weight:bold;
 }
 
 .polaroid img, .center-elements img {
@@ -107,14 +123,19 @@ body {
 }
 
 #center-elements {
-	border: 10px double darkgreen;
-	max-width: 50%;
-	left: 0;
 	right: 0;
-	font-size: large;
-	font-family: 'Architects Daughter', cursive;
+	left: 0;
+
+	max-width: 50%;
+	margin: 0 auto;
+
 	text-align: center;
+
+	border: 10px double darkgreen;
 	background-image: url("../img/old-paper.jpg");
+
+	font-family: 'Architects Daughter', cursive;
+	font-size: large;
 	/*opacity: .7;*/
 }
 
@@ -140,8 +161,10 @@ p {
 
 .date {
 	padding: 5px;
-	font-size: 60px;
+
 	color: #FD6301;
+
+	font-size: 60px;
 }
 
 .event {
@@ -165,11 +188,12 @@ p {
 
 .student-org {
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
+
 	width: 25%;
-	padding: 10px;
 	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
 }
 
 .student-org img {
@@ -184,3 +208,4 @@ p {
 	.polaroid {
 		display: none;
 	}
+}
