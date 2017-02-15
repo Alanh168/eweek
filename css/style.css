@@ -6,6 +6,7 @@ body {
 	background-image: url("../img/um-colors-background.jpg");
 }
 
+/* For the Top Banner */
 #banner {
 	width: 100%;
 	height: 10%;
@@ -16,6 +17,7 @@ body {
 	background-color: white;
 }
 
+/* Left Side of Banner */
 .left {
 	display: inline-block;
 	float: left;
@@ -32,6 +34,7 @@ body {
 	margin: 0 auto;
 }
 
+/* Right Side of Banner */
 .right {
 	display: inline-block;
 	float: right;
@@ -81,6 +84,7 @@ body {
 	background-color: #FD6301;
 }
 
+/* Middle Part of Banner */
 .centered {
 	display: inline-block;
 
@@ -95,6 +99,7 @@ body {
 	height: inherit;
 }
 
+/* Polaroid-Like Pictures */
 .polaroid {
 	display: block;
 
@@ -122,6 +127,7 @@ body {
 	margin-bottom: 10px;
 }
 
+/* Block in the Middle of the Page */
 #center-elements {
 	right: 0;
 	left: 0;
@@ -147,18 +153,21 @@ p {
 	line-height: 90%;
 }
 
+/* Tilt Element slightly to the left */
 .left-tilt {
 	-ms-transform: rotate(-7deg); /* IE 9 */
 	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
 	transform: rotate(-7deg);
 }
 
+/* Tilt Element slightly to the right */
 .right-tilt {
 	-ms-transform: rotate(7deg); /* IE 9 */
 	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
 	transform: rotate(7deg);
 }
 
+/* Dates on the Schedule */
 .date {
 	padding: 5px;
 
@@ -167,6 +176,7 @@ p {
 	font-size: 60px;
 }
 
+/* Events on the Schedule */
 .event {
 	max-width: 1000px;
 	margin-left: auto;
@@ -186,6 +196,7 @@ p {
 .event p {
 }
 
+/* Student Organizations on the Student Organizations Page */
 .student-org {
 	display: inline-block;
 
@@ -203,6 +214,8 @@ p {
 .student-org h3 {
 	display: inline-block;
 }
+
+/* Compatibility */
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
