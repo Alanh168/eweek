@@ -68,14 +68,6 @@ body {
 	-moz-box-shadow: 2px 2px #777777;
 	-webkit-box-shadow: 2px 2px #777777;
 	box-shadow: 2px 2px #777777;}
-	#center-elements {
-		max-width:100%;
-	}
-	.event[style] {
-		float:none !important;
-		width:100% !important;
-		display:block !important;
-	}
 }
 
 .right a:hover {
